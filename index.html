@@ -6,15 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Blog</title>
+    
+    
+    <script>
+    function chamaAlerta (){
+        const element = document.getElementById("artigo1")
+        element.style.display="none"
+    }
+    function fecharAlerta (){
+        const element = document.getElementById("artigo1")
+        element.style.display="block"
+    }
+
+    
+
+    </script>
 </head>
 <body>
 
     <nav>
-        <a href="https://www.linkedin.com/in/leandrocostap/">Contato</a>
-        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+        <a onclick="chamaAlerta()" href="#">Sobre</a>
         <a href="#">Inicio</a>
     </nav>
 
+    
     <header class="header">
         <div class="logo">
             <img src="img/front.png" width="100%" height="300px" alt="">
@@ -24,12 +40,40 @@
             <input type="text" name id placeholder="Digite aqui seu email">
             <button style="border-radius:5px">Enviar</button>
         </div>
-        </div>
+            </div>
+<br>
+
+<center>
+<div id="artigo0">
+<span>
+    HTML 
+</span>
+
+<span>
+   CSS 
+</span>
+
+<span>
+    JAVASCRIPT 
+</span>
+
+<span>
+    BOOTSTRAP 
+</span>
+
+<span>
+   FRAMEWORKS
+</span>
+</div>
+</center>
+            
+
         
     </header>
+    
     <h1>PARA SE TORNAR UM DESENVOLVEDOR FRONT-END</h1>
-
-    <p class="texto">Você precisa se familiarizar com lógica de programação aprender algumas linguagens, como HTML, CSS, Javascript e Flash. Essas são as principais linguagens utilizadas para criar interfaces de uma aplicação. 
+    
+        <p class="texto">Você precisa se familiarizar com lógica de programação aprender algumas linguagens, como HTML, CSS, Javascript e Flash. Essas são as principais linguagens utilizadas para criar interfaces de uma aplicação. 
 
         HTML
         Se você quer aprender a programar, precisa entender e conhecer HTML. Esta é uma excelente linguagem de programação para quem está começando. O HTML é a base de toda a aplicação, sendo usada para criar a estrutura fundamental do conteúdo de um site e seus principais elementos, como rodapé, cabeçalho, menus, barra lateral etc. 
@@ -47,6 +91,7 @@
         Agora que você já sabe o que é desenvolvimento front-end, qual sua aplicação e o que você precisa saber para se tornar um programador na área, é só arregaçar as mangas e buscar seu conhecimento!
         
         Assim como inúmeras áreas da tecnologia, esteja preparado para nunca deixar de aprender e renovar seus conhecimentos. Todas as linguagens de programação acima passam por atualizações, revisões e melhorias, e é sempre indicado complementar suas habilidades técnicas com informações de áreas relacionadas, como design e UX.</p>
+        
 
         <div class="imagemmeio">
             <img src="img/pngwing.com (5).png" height="150px" alt="">
